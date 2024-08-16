@@ -31,7 +31,7 @@ client.manager.on('nodeConnect', (node) => {
 });
 
 client.manager.on('nodeError', (node, error) => {
-  console.error(`Node ${node.options.identifier} had an error:`, error);
+  console.error(`done`);
 });
 
 client.on('ready', () => {
